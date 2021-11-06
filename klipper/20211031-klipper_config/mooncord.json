@@ -1,0 +1,61 @@
+{
+    "connection": {
+        "moonraker_socket_url": "ws://127.0.0.1/websocket",
+        "moonraker_url": "http://127.0.0.1",
+        "moonraker_token": "6a05bb728f144f3cac9d3af3896fc0f4",
+        "bot_token": "ODc5MDIyOTcxNjE4OTkyMTg4.YSJr7w.eADXGeV-KqxFdogqaypIsimxpAk",
+        "bot_application_key": "2df876c76272bcbbd0513e6a7adbf9f03631d2ead0a5e0cfd887c65cfd1a8d8c",
+        "bot_application_id": "879022971618992188"
+    },
+    "status": {
+        "update_interval": 10,
+        "use_percent": true,
+        "min_interval": 15,
+        "before": {
+            "enable": false,
+            "delay": 0,
+            "execute": []
+        },
+        "after": {
+            "enable": false,
+            "delay": 0,
+            "execute": []
+        }
+    },
+    "language": {
+        "messages": "en",
+        "command_syntax": "en"
+    },
+    "permission": {
+        "controller": ["283708074408017920" ],
+        "guild_admin_as_bot_admin": false
+    },
+    "webcam": {
+        "url": "http://127.0.0.1/webcam/?action=snapshot",
+        "quality": 80,
+        "rotation": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "vertical_mirror": false,
+        "horizontal_mirror": false,
+        "greyscale": false,
+        "sepia": false
+    },
+    "timelapse": {
+        "enable": true,
+        "framerate": 10,
+        "frame_every_layer": true,
+        "frame_every_percent": false,
+        "post_at_print_end": true,
+        "ffmpeg_codec": "libx264",
+        "ffmpeg_arguments": [
+            "-pix_fmt yuv420p",
+            "-preset slower",
+            "-crf 30"
+        ]
+    },
+    "system_notifications": {
+        "moonraker_throttle": true,
+        "system_warns": true
+    }
+}
